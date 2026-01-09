@@ -1,0 +1,57 @@
+<h2 class="c-project-heading--task">Change the LEDs</h2>
+--- task ---
+You can change the colours of specific LEDs
+--- /task ---
+
+<h2 class="c-project-heading--explainer">LEDs as a list</h2>
+
+Individual LEDs are shown in the list called `image`.
+At the moment, every LED is coloured with the `c` colour you chose.
+Create a new colour, and change some of the LEDs to that colour.
+
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 13
+line_highlights: 15, 18-25
+---
+# Add colour variables and image
+c = (248, 24, 148)
+d = (128, 0, 128)
+
+image = [
+    d, c, c, c, c, c, c, d,
+    c, d, c, c, c, c, d, c,
+    c, c, d, c, c, d, c, c,
+    c, c, c, d, d, c, c, c,
+    c, c, c, d, d, c, c, c,
+    c, c, d, c, c, d, c, c,
+    c, d, c, c, c, c, d, c,
+    d, c, c, c, c, c, c, d
+    ]
+
+--- /code ---
+</div>
+
+<div class="c-project-output">
+<pre>WHAT THEY SHOULD SEE IF OUTPUT IS TEXT - OTHERWISE USE IMAGE</pre>
+</div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+BULLET POINT TIPS HERE (OPTIONAL)
+
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+BULLET POINT DEBUG POINTS HERE (OPTIONAL)
+
+</div>

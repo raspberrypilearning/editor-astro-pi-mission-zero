@@ -25,7 +25,7 @@ line_number_start: 13
 line_highlights: 14
 ---
 # Add colour variables and image
-c = (255, 0, 127)
+c = (248, 24, 148)
 --- /code ---
 </div>
 
