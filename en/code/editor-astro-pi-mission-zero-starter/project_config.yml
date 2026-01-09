@@ -1,0 +1,4 @@
+name: "Mission Zero Starter"
+identifier: "editor-astro-pi-mission-zero-starter"
+type: 'python'
+build: true
