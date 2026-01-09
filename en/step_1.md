@@ -1,45 +1,33 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+## You will make
 
-A brief description - one or two sentences. 
+Your project will set the background colour of an image to the colour that the Astro Pi detects. This will make the International Space Station (ISS) more colourful for the astronauts on board. Your code will use the colour luminosity sensor on the Mark II Astro Pi computer’s Sense HAT to make this happen.
 
---- print-only ---
+Here is an example of the kind of program you could make to run on an Astro Pi in space.
 
-![ALT TEXT](images/IMAGE.png)
+![The Sense HAT emulator running a sample program with a snake where the background colour changes to the colour sensed.](images/finished.gif)
 
---- /print-only ---
+### You will need
 
---- no-print ---
+You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
 
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
+### Astro Pi Mission Zero criteria
+ 
+**If your project meets the [eligibility criteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, your completed program will be run on the International Space Station! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
 
---- /no-print ---
+You will learn about the Astro Pi computer and how to control it, including how to:
++ Create colour **variables** to use in your image
++ Design and display a pixel art image on the Sense HAT
++ Sense the colour of light on board the ISS 
 
---- no-print ---
+--- collapse ---
+---
+title: Notes for mentors
+---
 
-Video embed
+Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser. 
 
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
+Organise your young people into teams of one to four, and let us guide them through writing a short Python program to sense the colour on board the ISS and create an image that uses that colour.
 
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
+Read the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
 
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
-</div>
-
---- /no-print ---
-
-### You will need:
-- a
-- b
-- c
+--- /collapse ---
