@@ -5,7 +5,9 @@ Experiment with colour values to see what they look like.
 
 <h2 class="c-project-heading--explainer">Red, Green and Blue</h2>
 
-Computers often use three numbers to describe a colour. The numbers are between 0 and 255, for the amount of red, green, and blue.
+Computers use three numbers to describe a colour.
+
+The numbers are between 0 and 255, for the amount of red, green, and blue.
 
 ```
 hot_pink = (248, 24, 148)
