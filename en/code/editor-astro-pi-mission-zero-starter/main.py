@@ -13,7 +13,6 @@ sense.color.integration_cycles = 64 # The interval at which the reading will be 
 # Add colour variables and image
 c = (0, 0, 0)
 
-# Display the image
 image = [
     c, c, c, c, c, c, c, c,
     c, c, c, c, c, c, c, c,
@@ -24,3 +23,6 @@ image = [
     c, c, c, c, c, c, c, c,
     c, c, c, c, c, c, c, c
     ]
+
+# Display the image
+sense.set_pixels(image)

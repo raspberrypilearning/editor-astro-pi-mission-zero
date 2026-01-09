@@ -1,33 +1,53 @@
-## You will make
+<h2 class="c-project-heading--task">Colour the LEDs</h2>
+--- task ---
+Experiment with colour values to see what they look like.
+--- /task ---
 
-Your project will set the background colour of an image to the colour that the Astro Pi detects. This will make the International Space Station (ISS) more colourful for the astronauts on board. Your code will use the colour luminosity sensor on the Mark II Astro Pi computer’s Sense HAT to make this happen.
+<h2 class="c-project-heading--explainer">Red, Green and Blue</h2>
 
-Here is an example of the kind of program you could make to run on an Astro Pi in space.
+Computers often use three numbers to describe a colour. The numbers are between 0 and 255, for the amount of red, green, and blue.
 
-![The Sense HAT emulator running a sample program with a snake where the background colour changes to the colour sensed.](images/finished.gif)
+```
+hot_pink = (248, 24, 148)
+```
 
-### You will need
+In the code on the right, the colour (`c`) is set to black `(0, 0, 0)
 
-You will use the Astro Pi emulator in a web browser to create your program. You do not need an Astro Pi computer.
+Change the values of `c` and run the code to see what different colours you can make.
 
-### Astro Pi Mission Zero criteria
- 
-**If your project meets the [eligibility criteria](https://astro-pi.org/mission-zero/eligibility){:target="_blank"}**, your completed program will be run on the International Space Station! You will also receive a special certificate that shows exactly where the ISS was when your program ran.
-
-You will learn about the Astro Pi computer and how to control it, including how to:
-+ Create colour **variables** to use in your image
-+ Design and display a pixel art image on the Sense HAT
-+ Sense the colour of light on board the ISS 
-
---- collapse ---
+<div class="c-project-code">
+--- code ---
 ---
-title: Notes for mentors
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 13
+line_highlights: 14
 ---
+# Add colour variables and image
+c = (255, 0, 127)
+--- /code ---
+</div>
 
-Mission Zero is suitable for beginners to programming and/or primary school-aged children and can be completed in a single 60-minute session on any computer with internet access. No special hardware or prior coding skills are needed. Everything can be done in a web browser. 
+<div class="c-project-output">
+<pre>WHAT THEY SHOULD SEE IF OUTPUT IS TEXT - OTHERWISE USE IMAGE</pre>
+</div>
 
-Organise your young people into teams of one to four, and let us guide them through writing a short Python program to sense the colour on board the ISS and create an image that uses that colour.
+<div class="c-project-callout c-project-callout--tip">
 
-Read the [official guidelines](https://astro-pi.org/mission-zero/guidelines){:target="_blank"} for Mission Zero.
+### Tip
 
---- /collapse ---
+BULLET POINT TIPS HERE (OPTIONAL)
+
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+BULLET POINT DEBUG POINTS HERE (OPTIONAL)
+
+</div>
+
+
+
