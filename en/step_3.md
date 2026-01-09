@@ -21,10 +21,10 @@ line_number_start: 13
 line_highlights: 
 ---
 # Add colour variables and image
-z = (153, 50, 204) # DarkOrchid
-q = (255, 255, 0) # Yellow
-d = (51, 153, 255) # blue
-c = (0, 0, 0) # Black
+z = (153, 50, 204) # Tail and fins
+q = (255, 255, 0) # Body
+d = (51, 153, 255) # Water
+c = (0, 0, 0) # Eye
 
 image = [
 d, d, z, d, d, d, d, d,

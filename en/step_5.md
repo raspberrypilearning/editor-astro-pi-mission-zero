@@ -1,17 +1,63 @@
-## What next — more Astro Pi projects
+<h2 class="c-project-heading--task">Keep the colour changing</h2>
+--- task ---
+The colour can be updated as the sensor changes
+--- /task ---
 
-Now that you have completed your mission, why not try out some more projects using the other sensors on the Astro Pi?
+<h2 class="c-project-heading--explainer">Use a loop with a pause</h2>
 
-If you’re feeling confident, you could take part in Mission Space Lab. Form a team of two to six people, and work together to answer a real scientific question. All teams that submit an eligible program will be invited to a virtual Q&A with an ESA astronaut at the end of the Astro Pi Challenge cycle.
+Add a `for` loop to your code, so that the colour sensor is checked every second, and your image is updated. This program will run for 28 seconds
 
-Alternatively you might want to try out one of our other Sense HAT projects:
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 13
+line_highlights: 
+---
+# Add colour variables and image
+z = (153, 50, 204) # Tail and fins
+q = (255, 255, 0) # Body
+d = (51, 153, 255) # Water
+c = (0, 0, 0) # Eye
 
-+ Learn [more about the Sense HAT](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat){:target="_blank"} and the other things it can do
+for i in range(28):
+    rgb = sense.color # get the colour from the sensor
+    c = (rgb.red, rgb.green, rgb.blue) # colour the fish eye
 
-+ Create some pretty [random sparkles](https://projects.raspberrypi.org/en/projects/sense-hat-random-sparkles){:target="_blank"} on the Sense HAT's LED display
+    image = [
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d]
 
-+ Create a [Flappy Astronaut](https://projects.raspberrypi.org/en/projects/flappy-astronaut){:target="_blank"} game
+    # Display the image
+    sense.set_pixels(image)
+    sleep(1)
+--- /code ---
+</div>
 
-+ Challenge your friends with a [marble maze](https://projects.raspberrypi.org/en/projects/sense-hat-marble-maze){:target="_blank"} game
+<div class="c-project-output">
+<pre>WHAT THEY SHOULD SEE IF OUTPUT IS TEXT - OTHERWISE USE IMAGE</pre>
+</div>
 
-+ Recreate the classic game of [Pong](https://projects.raspberrypi.org/en/projects/sense-hat-pong){:target="_blank"}
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+BULLET POINT TIPS HERE (OPTIONAL)
+
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+BULLET POINT DEBUG POINTS HERE (OPTIONAL)
+
+</div>
