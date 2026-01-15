@@ -5,7 +5,9 @@ The Astro Pi has a colour sensor, to detect colours
 
 <h2 class="c-project-heading--explainer">Use the colour sensor to change your image</h2>
 
-Choose a new letter to store what the colour sensor on the Astro Pi is "seeing". Then add this colour into your picture somewhere.
+Choose a new letter to store what the colour sensor on the Astro Pi is "seeing".
+
+Add this colour into your picture somewhere.
 
 It could be:
 - The eye colour of a face

@@ -3,8 +3,6 @@
 Edit your `image` to create your own picture
 --- /task ---
 
-<h2 class="c-project-heading--explainer">PROBABLY UNNECCESARY TITLE</h2>
-
 By adding more colours, and changing the `image` list, you can create your very own picture on the LED matrix.
 
 The following is an example of a fish
@@ -47,7 +45,9 @@ image = [
 
 ### Tip
 
-It might help to design your picture on some squared paper. Or you can use an app like [this one](https://www.piskelapp.com/kids/)
+It might help to design your picture on some squared paper.
+
+Or you can use an app like [this one](https://www.piskelapp.com/kids/)
 
 </div>
 

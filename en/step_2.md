@@ -5,7 +5,9 @@ You can change the colours of specific LEDs
 
 <h2 class="c-project-heading--explainer">LEDs as a list</h2>
 
-Individual LEDs are shown in the list called `image`. This is an 8 x 8 grid of letters. Each letter colours a pixel on the Astro Pi.
+Individual LEDs are shown in the list called `image`.
+
+This is an 8 x 8 grid of letters. Each letter colours a pixel on the Astro Pi.
 
 At the moment, every LED is coloured with the `c` colour you chose.
 

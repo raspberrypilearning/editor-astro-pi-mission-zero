@@ -5,7 +5,9 @@ The colour can be updated as the sensor changes.
 
 <h2 class="c-project-heading--explainer">Use a loop with a pause</h2>
 
-Add a `for` loop to your code, so that the colour sensor is checked every second, and your image is updated. This program will run for 28 seconds.
+Add a `for` loop to your code, so that the colour sensor is checked every second, and your image is updated.
+
+This program will run for 28 seconds.
 
 <div class="c-project-code">
 --- code ---
