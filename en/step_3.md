@@ -18,7 +18,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 13
-line_highlights: 
+line_highlights: 14-17, 20-27
 ---
 # Add colour variables and image
 z = (153, 50, 204) # Tail and fins
@@ -27,26 +27,27 @@ d = (51, 153, 255) # Water
 c = (0, 0, 0) # Eye
 
 image = [
-d, d, z, d, d, d, d, d,
-d, d, d, z, z, d, d, d,
-z, d, q, q, q, q, d, d,
-z, z, q, q, q, c, q, d,
-z, z, z, q, q, q, q, d,
-z, z, q, q, q, q, q, d,
-z, d, q, z, z, q, d, d,
-d, d, d, z, d, d, d, d]
+    d, d, z, d, d, d, d, d,
+    d, d, d, z, z, d, d, d,
+    z, d, q, q, q, q, d, d,
+    z, z, q, q, q, c, q, d,
+    z, z, z, q, q, q, q, d,
+    z, z, q, q, q, q, q, d,
+    z, d, q, z, z, q, d, d,
+    d, d, d, z, d, d, d, d,
+    ]
 --- /code ---
 </div>
 
 <div class="c-project-output">
-<pre>WHAT THEY SHOULD SEE IF OUTPUT IS TEXT - OTHERWISE USE IMAGE</pre>
+![astro pi displaying a yellow and purple fish with a black eye](images/astro-fish.png)
 </div>
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-BULLET POINT TIPS HERE (OPTIONAL)
+It might help to design your picture on some squared paper. Or you can use an app like [this one](https://www.piskelapp.com/kids/)
 
 </div>
 
@@ -54,6 +55,8 @@ BULLET POINT TIPS HERE (OPTIONAL)
 
 ### Debugging
 
-BULLET POINT DEBUG POINTS HERE (OPTIONAL)
+Make sure that every letter used in your image has an RGB value set.
+
+Check that you have 8 columns and 8 rows of colours in your image, and that there are commas at the end of each row.
 
 </div>
