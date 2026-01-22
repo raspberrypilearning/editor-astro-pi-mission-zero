@@ -2,7 +2,7 @@
 
 --- task ---
 
-You can change the colours of specific LEDs
+You can change the colours of specific LEDs.
 
 --- /task ---
 
@@ -16,7 +16,7 @@ At the moment, every LED is coloured with the `c` colour you chose.
 
 --- task ---
 
-Create a new colour, and change some of the LEDs to use that colour.
+Create a new colour and change some of the LEDs to use that colour.
 
 --- /task ---
 

@@ -1,11 +1,11 @@
 <h2 class="c-project-heading--task">Sense a colour</h2>
 --- task ---
-The Astro Pi has a colour sensor, to detect colours
+The Astro Pi has a colour sensor to detect colours.
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Use the colour sensor to change your image</h2>
 
-Choose a new letter to store what the colour sensor on the Astro Pi is "seeing".
+Choose a new letter to store the colour the Astro Pi's sensor reads.
 
 Add this colour into your picture somewhere.
 
@@ -46,7 +46,7 @@ image = [
 --- /code ---
 </div>
 
-Before you click **Run**, change the colour on the colour sensor. You can click on the colour, and use the picker to choose a new one.
+Before you click **Run**, change the colour on the colour sensor. You can click on the colour and use the picker to choose a new one.
 
 ![colour sensor](images/colour_sensor.png)
 

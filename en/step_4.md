@@ -1,17 +1,17 @@
 <h2 class="c-project-heading--task">Draw a picture</h2>
 --- task ---
-Edit your `image` to create your own picture
+Edit your `image` to create your own picture.
 --- /task ---
 
-By adding more colours, and changing the `image` list, you can create your very own picture on the LED matrix.
+By adding more colours and changing the `image` list, you can create your very own picture on the LED matrix.
 
-The following is an example of a fish
+The following is an example of a fish.
 
 ![fish](images/fish.png)
 
 --- task ---
 
-Replace the code below, to use your own colours and create your own image.
+Replace the code below to use your own colours and create your own image.
 
 --- /task ---
 
@@ -59,7 +59,7 @@ Run your code.
 
 It might help to design your picture on some squared paper.
 
-Or you can use an app like [this one](https://www.piskelapp.com/kids/)
+Or you can use a pixel art app like [Piskel](https://www.piskelapp.com/kids/).
 
 </div>
 

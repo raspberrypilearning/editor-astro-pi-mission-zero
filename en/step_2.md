@@ -13,7 +13,7 @@ The numbers are between 0 and 255, for the amount of red (R), green (G), and blu
 hot_pink = (248, 24, 148)
 ```
 
-In the code on the right, the colour (`c`) is set to black `(0, 0, 0)`
+In the code on the right, the colour (`c`) is set to black `(0, 0, 0)`.
 
 --- task ---
 
@@ -49,7 +49,7 @@ Run your code.
 
 ### Tip
 
-You can use a colour picker like [this one](https://share.google/WkKa3VbOYnhYYkC9h) to find `RGB` values
+You can use an [RGB colour picker](https://share.google/WkKa3VbOYnhYYkC9h) to find `RGB` values.
 
 </div>
 
@@ -60,6 +60,5 @@ You can use a colour picker like [this one](https://share.google/WkKa3VbOYnhYYkC
 Check that you have commas (`,`) between the numbers you have chosen.
 
 </div>
-
 
 

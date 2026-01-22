@@ -5,9 +5,9 @@ The colour can be updated as the sensor changes.
 
 <h2 class="c-project-heading--explainer">Use a loop with a pause</h2>
 
-Add a `for` loop to your code, so that the colour sensor is checked every second, and your image is updated.
+Add a `for` loop to your code so that the colour sensor is checked every second and your image is updated.
 
-This program will run for 28 seconds. Each Mission Zero entry has only 30 seconds of time to run on the ISS.
+This program will run for 28 seconds. Each Mission Zero entry runs for only 30 seconds on the ISS.
 
 All the lines after the `for` loop need to have four spaces of indentation.
 
@@ -49,7 +49,7 @@ for i in range(28):
 
 --- task ---
 
-Run your program and then change the colour sensor readings to see the picture change.
+Run your program and then change the colour sensor value to see the picture change.
 
 --- /task ---
 
@@ -63,6 +63,6 @@ Run your program and then change the colour sensor readings to see the picture c
 
 Make sure you have **four** spaces of indentation on all lines below the `for` loop.
 
-Don't forget to add the `sleep(1)` on the last line, to give you time to change the colours.
+Don't forget to add the `sleep(1)` on the last line to give you time to change the colours.
 
 </div>
