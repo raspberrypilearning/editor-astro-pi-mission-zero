@@ -1,0 +1,4 @@
+name: "Mission Zero complete"
+identifier: "editor-astro-pi-mission-zero-complete"
+type: 'python'
+build: true

@@ -1,13 +1,17 @@
-<h2 class="c-project-heading--task">Draw a picture</h2>
+<h2 class="c-project-heading--task">Change the LEDs</h2>
 --- task ---
-Edit your `image` to create your own picture
+You can change the colours of specific LEDs
 --- /task ---
 
-By adding more colours, and changing the `image` list, you can create your very own picture on the LED matrix.
+<h2 class="c-project-heading--explainer">LEDs as a list</h2>
 
-The following is an example of a fish
+Individual LEDs are shown in the list called `image`.
 
-![fish](images/fish.png)
+This is an 8 x 8 grid of letters. Each letter colours a pixel on the Astro Pi.
+
+At the moment, every LED is coloured with the `c` colour you chose.
+
+Create a new colour, and change some of the LEDs to use that colour.
 
 <div class="c-project-code">
 --- code ---
@@ -16,47 +20,33 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 13
-line_highlights: 14-17, 20-27
+line_highlights: 15, 18-25
 ---
 # Add colour variables and image
-z = (153, 50, 204) # Tail and fins
-q = (255, 255, 0) # Body
-d = (51, 153, 255) # Water
-c = (0, 0, 0) # Eye
+c = (248, 24, 148)
+d = (128, 0, 128)
 
 image = [
-    d, d, z, d, d, d, d, d,
-    d, d, d, z, z, d, d, d,
-    z, d, q, q, q, q, d, d,
-    z, z, q, q, q, c, q, d,
-    z, z, z, q, q, q, q, d,
-    z, z, q, q, q, q, q, d,
-    z, d, q, z, z, q, d, d,
-    d, d, d, z, d, d, d, d,
+    d, c, c, c, c, c, c, d,
+    c, d, c, c, c, c, d, c,
+    c, c, d, c, c, d, c, c,
+    c, c, c, d, d, c, c, c,
+    c, c, c, d, d, c, c, c,
+    c, c, d, c, c, d, c, c,
+    c, d, c, c, c, c, d, c,
+    d, c, c, c, c, c, c, d
     ]
+
 --- /code ---
 </div>
 
 <div class="c-project-output">
-![astro pi displaying a yellow and purple fish with a black eye](images/astro-fish.png)
-</div>
-
-<div class="c-project-callout c-project-callout--tip">
-
-### Tip
-
-It might help to design your picture on some squared paper.
-
-Or you can use an app like [this one](https://www.piskelapp.com/kids/)
-
+![astro pi with a pink screen and a purple cross](images/purple-cross.png)
 </div>
 
 <div class="c-project-callout c-project-callout--debug">
 
 ### Debugging
 
-Make sure that every letter used in your image has an RGB value set.
-
-Check that you have 8 columns and 8 rows of colours in your image, and that there are commas at the end of each row.
-
+Have you added a second colour? In the example `d = (128, 0, 128)`.
 </div>

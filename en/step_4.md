@@ -1,19 +1,13 @@
-<h2 class="c-project-heading--task">Sense a colour</h2>
+<h2 class="c-project-heading--task">Draw a picture</h2>
 --- task ---
-The Astro Pi has a colour sensor, to detect colours
+Edit your `image` to create your own picture
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Use the colour sensor to change your image</h2>
+By adding more colours, and changing the `image` list, you can create your very own picture on the LED matrix.
 
-Choose a new letter to store what the colour sensor on the Astro Pi is "seeing".
+The following is an example of a fish
 
-Add this colour into your picture somewhere.
-
-It could be:
-- The eye colour of a face
-- The background colour
-- The colour of a flower's petals
-- Whatever you like
+![fish](images/fish.png)
 
 <div class="c-project-code">
 --- code ---
@@ -22,16 +16,13 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 13
-line_highlights: 19-20
+line_highlights: 14-17, 20-27
 ---
 # Add colour variables and image
 z = (153, 50, 204) # Tail and fins
 q = (255, 255, 0) # Body
 d = (51, 153, 255) # Water
 c = (0, 0, 0) # Eye
-
-rgb = sense.color # get the colour from the sensor
-z = (rgb.red, rgb.green, rgb.blue) # colour the fish's tail and fins
 
 image = [
     d, d, z, d, d, d, d, d,
@@ -46,9 +37,26 @@ image = [
 --- /code ---
 </div>
 
-Before you click **Run**, change the colour on the colour sensor.
-![colour sensor](images/colour_sensor.png)
-
 <div class="c-project-output">
-![astro pi with a fish displayed, now with purple fins to match the colour sensor](images/fish-purple-fins.png)
+![astro pi displaying a yellow and purple fish with a black eye](images/astro-fish.png)
+</div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+It might help to design your picture on some squared paper.
+
+Or you can use an app like [this one](https://www.piskelapp.com/kids/)
+
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+Make sure that every letter used in your image has an RGB value set.
+
+Check that you have 8 columns and 8 rows of colours in your image, and that there are commas at the end of each row.
+
 </div>

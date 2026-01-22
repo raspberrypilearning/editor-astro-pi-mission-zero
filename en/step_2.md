@@ -1,17 +1,21 @@
-<h2 class="c-project-heading--task">Change the LEDs</h2>
+<h2 class="c-project-heading--task">Colour the LEDs</h2>
 --- task ---
-You can change the colours of specific LEDs
+Experiment with colour values to see what they look like.
 --- /task ---
 
-<h2 class="c-project-heading--explainer">LEDs as a list</h2>
+<h2 class="c-project-heading--explainer">Red, Green and Blue</h2>
 
-Individual LEDs are shown in the list called `image`.
+Computers use three numbers to describe a colour.
 
-This is an 8 x 8 grid of letters. Each letter colours a pixel on the Astro Pi.
+The numbers are between 0 and 255, for the amount of red (R), green (G), and blue (B).
 
-At the moment, every LED is coloured with the `c` colour you chose.
+```
+hot_pink = (248, 24, 148)
+```
 
-Create a new colour, and change some of the LEDs to use that colour.
+In the code on the right, the colour (`c`) is set to black `(0, 0, 0)`
+
+Change the values of `c` and run the code to see what different colours you can make.
 
 <div class="c-project-code">
 --- code ---
@@ -20,33 +24,32 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 13
-line_highlights: 15, 18-25
+line_highlights: 14
 ---
 # Add colour variables and image
 c = (248, 24, 148)
-d = (128, 0, 128)
-
-image = [
-    d, c, c, c, c, c, c, d,
-    c, d, c, c, c, c, d, c,
-    c, c, d, c, c, d, c, c,
-    c, c, c, d, d, c, c, c,
-    c, c, c, d, d, c, c, c,
-    c, c, d, c, c, d, c, c,
-    c, d, c, c, c, c, d, c,
-    d, c, c, c, c, c, c, d
-    ]
-
 --- /code ---
 </div>
 
 <div class="c-project-output">
-![astro pi with a pink screen and a purple cross](images/purple-cross.png)
+![astro pi displaying an all pink screen](images/pink-screen.png)
+</div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+You can use a colour picker like [this one](https://share.google/WkKa3VbOYnhYYkC9h) to find `RGB` values
+
 </div>
 
 <div class="c-project-callout c-project-callout--debug">
 
 ### Debugging
 
-Have you added a second colour? In the example `d = (128, 0, 128)`.
+Check that you have commas (`,`) between the numbers you have chosen.
+
 </div>
+
+
+
