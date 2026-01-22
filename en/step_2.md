@@ -15,7 +15,11 @@ hot_pink = (248, 24, 148)
 
 In the code on the right, the colour (`c`) is set to black `(0, 0, 0)`
 
+--- task ---
+
 Change the values of `c` and run the code to see what different colours you can make.
+
+--- /task ---
 
 <div class="c-project-code">
 --- code ---
@@ -30,6 +34,12 @@ line_highlights: 14
 c = (248, 24, 148)
 --- /code ---
 </div>
+
+--- task ---
+
+Run your code.
+
+--- /task ---
 
 <div class="c-project-output">
 ![astro pi displaying an all pink screen](images/pink-screen.png)

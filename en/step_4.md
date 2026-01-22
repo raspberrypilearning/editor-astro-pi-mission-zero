@@ -9,6 +9,13 @@ The following is an example of a fish
 
 ![fish](images/fish.png)
 
+--- task ---
+
+Replace the code below, to use your own colours and create your own image.
+
+--- /task ---
+
+
 <div class="c-project-code">
 --- code ---
 ---
@@ -37,6 +44,11 @@ image = [
 --- /code ---
 </div>
 
+--- task ---
+
+Run your code.
+
+--- /task ---
 <div class="c-project-output">
 ![astro pi displaying a yellow and purple fish with a black eye](images/astro-fish.png)
 </div>

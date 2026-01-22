@@ -7,7 +7,9 @@ The colour can be updated as the sensor changes.
 
 Add a `for` loop to your code, so that the colour sensor is checked every second, and your image is updated.
 
-This program will run for 28 seconds.
+This program will run for 28 seconds. Each Mission Zero entry has only 30 seconds of time to run on the ISS.
+
+All the lines after the `for` loop need to have four spaces of indentation.
 
 <div class="c-project-code">
 --- code ---
@@ -44,6 +46,12 @@ for i in range(28):
     sleep(1)
 --- /code ---
 </div>
+
+--- task ---
+
+Run your program and then change the colour sensor readings to see the picture change.
+
+--- /task ---
 
 <div class="c-project-output">
 ![animation of astro pi showing colour picker being changed and fish colours changing as a result](images/colour-change.gif)

@@ -46,8 +46,12 @@ image = [
 --- /code ---
 </div>
 
-Before you click **Run**, change the colour on the colour sensor.
+Before you click **Run**, change the colour on the colour sensor. You can click on the colour, and use the picker to choose a new one.
+
 ![colour sensor](images/colour_sensor.png)
+
+This simulates what an Astro Pi unit's colour sensor would detect.
+
 
 <div class="c-project-output">
 ![astro pi with a fish displayed, now with purple fins to match the colour sensor](images/fish-purple-fins.png)
