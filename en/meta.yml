@@ -6,11 +6,17 @@ listed: false
 copyedit: true
 version: 5.0.0
 last_tested: 2018-06-12
+landing: true
 steps:
-- title: Step 1
-- title: Step 2
-- title: Step 3
-- title: Step 4
-- title: Step 5
-- title: Step 6
-
+  - title: Astro Pi Mission Zero
+  - title: Colour the LEDs
+    completion:
+      - engaged
+  - title: Colour different LEDs
+  - title: Draw a picture
+  - title: Sense a colour
+    completion:
+      - internal
+  - title: Keep the colour changing
+    completion:
+      - external

@@ -1,7 +1,6 @@
 <h2 class="c-project-heading--task">Draw a picture</h2>
---- task ---
+### Step 1
 Edit your `image` to create your own picture.
---- /task ---
 
 By adding more colours and changing the `image` list, you can create your very own picture on the LED matrix.
 
@@ -9,11 +8,10 @@ The following is an example of a fish.
 
 ![fish](images/fish.png)
 
---- task ---
+### Step 2
 
 Replace the code below to use your own colours and create your own image.
 
---- /task ---
 
 
 <div class="c-project-code">
@@ -44,11 +42,10 @@ image = [
 --- /code ---
 </div>
 
---- task ---
+### Step 3
 
 Run your code.
 
---- /task ---
 <div class="c-project-output">
 ![astro pi displaying a yellow and purple fish with a black eye](images/astro-fish.png)
 </div>

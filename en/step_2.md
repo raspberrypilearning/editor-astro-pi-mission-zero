@@ -1,7 +1,6 @@
 <h2 class="c-project-heading--task">Colour the LEDs</h2>
---- task ---
+### Step 1
 Experiment with colour values to see what they look like.
---- /task ---
 
 <h2 class="c-project-heading--explainer">Red, Green and Blue</h2>
 
@@ -15,11 +14,10 @@ hot_pink = (248, 24, 148)
 
 In the code on the right, the colour (`c`) is set to black `(0, 0, 0)`.
 
---- task ---
+### Step 2
 
 Change the values of `c` and run the code to see what different colours you can make.
 
---- /task ---
 
 <div class="c-project-code">
 --- code ---
@@ -35,11 +33,10 @@ c = (248, 24, 148)
 --- /code ---
 </div>
 
---- task ---
+### Step 3
 
 Run your code.
 
---- /task ---
 
 <div class="c-project-output">
 ![astro pi displaying an all pink screen](images/pink-screen.png)
@@ -60,5 +57,3 @@ You can use an [RGB colour picker](https://share.google/WkKa3VbOYnhYYkC9h) to fi
 Check that you have commas (`,`) between the numbers you have chosen.
 
 </div>
-
-

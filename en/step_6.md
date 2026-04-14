@@ -1,7 +1,6 @@
 <h2 class="c-project-heading--task">Keep the colour changing</h2>
---- task ---
+### Step 1
 The colour can be updated as the sensor changes.
---- /task ---
 
 <h2 class="c-project-heading--explainer">Use a loop with a pause</h2>
 
@@ -47,11 +46,10 @@ for i in range(28):
 --- /code ---
 </div>
 
---- task ---
+### Step 2
 
 Run your program and then change the colour sensor value to see the picture change.
 
---- /task ---
 
 <div class="c-project-output">
 ![animation of astro pi showing colour picker being changed and fish colours changing as a result](images/colour-change.gif)
