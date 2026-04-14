@@ -1,4 +1,5 @@
 <h2 class="c-project-heading--task">Draw a picture</h2>
+
 ### Step 1
 Edit your `image` to create your own picture.
 

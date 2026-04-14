@@ -1,4 +1,5 @@
 <h2 class="c-project-heading--task">Keep the colour changing</h2>
+
 ### Step 1
 The colour can be updated as the sensor changes.
 

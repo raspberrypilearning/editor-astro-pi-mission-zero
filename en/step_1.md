@@ -1,4 +1,5 @@
 <h2 class="c-project-heading--task">Astro Pi Mission Zero</h2>
+
 ### Step 1
 Mission Zero offers young people the chance to have their code run in space! Write a simple program to take a reading from the colour and luminosity sensor on an Astro Pi computer on board the International Space Station. Use it to set the background colour in a personalised image for the astronauts to see as they go about their daily tasks.
 

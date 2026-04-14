@@ -1,4 +1,5 @@
 <h2 class="c-project-heading--task">Sense a colour</h2>
+
 ### Step 1
 The Astro Pi has a colour sensor to detect colours.
 
