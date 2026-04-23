@@ -1,6 +1,5 @@
 <h2 class="c-project-heading--task">Keep the colour changing</h2>
 
-### Step 1
 The colour can be updated as the sensor changes.
 
 <h2 class="c-project-heading--explainer">Use a loop with a pause</h2>
@@ -47,8 +46,6 @@ for i in range(28):
 --- /code ---
 </div>
 
-### Step 2
-
 Run your program and then change the colour sensor value to see the picture change.
 
 
@@ -56,12 +53,16 @@ Run your program and then change the colour sensor value to see the picture chan
 ![animation of astro pi showing colour picker being changed and fish colours changing as a result](images/colour-change.gif)
 </div>
 
-<div class="c-project-callout c-project-callout--debug">
-
 ### Debugging
+
+<div class="c-project-callout c-project-callout--debug">
 
 Make sure you have **four** spaces of indentation on all lines below the `for` loop.
 
 Don't forget to add the `sleep(1)` on the last line to give you time to change the colours.
 
 </div>
+
+## Now run your code
+
+Confirm the observable result.

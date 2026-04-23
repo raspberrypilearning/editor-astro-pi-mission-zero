@@ -1,6 +1,5 @@
 <h2 class="c-project-heading--task">Sense a colour</h2>
 
-### Step 1
 The Astro Pi has a colour sensor to detect colours.
 
 <h2 class="c-project-heading--explainer">Use the colour sensor to change your image</h2>
@@ -48,11 +47,16 @@ image = [
 
 Before you click **Run**, change the colour on the colour sensor. You can click on the colour and use the picker to choose a new one.
 
+<div class="c-project-output">
 ![colour sensor](images/colour_sensor.png)
-
+</div>
 This simulates what an Astro Pi unit's colour sensor would detect.
 
 
 <div class="c-project-output">
 ![astro pi with a fish displayed, now with purple fins to match the colour sensor](images/fish-purple-fins.png)
 </div>
+
+## Now run your code
+
+Confirm the observable result.

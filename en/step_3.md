@@ -1,19 +1,16 @@
 <h2 class="c-project-heading--task">Colour different LEDs</h2>
 
-### Step 1
-
 You can change the colours of specific LEDs.
 
-
 <h2 class="c-project-heading--explainer">LEDs as a list</h2>
+
+## Step 1
 
 Individual LEDs are shown in the list called `image`.
 
 This is an 8 x 8 grid of letters. Each letter colours a pixel on the Astro Pi.
 
 At the moment, every LED is coloured with the `c` colour you chose.
-
-### Step 2
 
 Create a new colour and change some of the LEDs to use that colour.
 
@@ -45,7 +42,7 @@ image = [
 --- /code ---
 </div>
 
-### Step 3
+## Step 2
 
 Run your code.
 
@@ -55,9 +52,13 @@ Run your code.
 ![astro pi with a pink screen and a purple cross](images/purple-cross.png)
 </div>
 
-<div class="c-project-callout c-project-callout--debug">
-
 ### Debugging
+
+<div class="c-project-callout c-project-callout--debug">
 
 Have you added a second colour? In the example `d = (128, 0, 128)`.
 </div>
+
+## Now run your code
+
+Confirm the observable result.

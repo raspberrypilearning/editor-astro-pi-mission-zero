@@ -1,15 +1,20 @@
 <h2 class="c-project-heading--task">Draw a picture</h2>
 
-### Step 1
 Edit your `image` to create your own picture.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 By adding more colours and changing the `image` list, you can create your very own picture on the LED matrix.
 
 The following is an example of a fish.
 
+<div class="c-project-output">
 ![fish](images/fish.png)
+</div>
 
-### Step 2
+## Step 2
 
 Replace the code below to use your own colours and create your own image.
 
@@ -43,7 +48,7 @@ image = [
 --- /code ---
 </div>
 
-### Step 3
+## Step 3
 
 Run your code.
 
@@ -51,9 +56,9 @@ Run your code.
 ![astro pi displaying a yellow and purple fish with a black eye](images/astro-fish.png)
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 It might help to design your picture on some squared paper.
 
@@ -61,12 +66,16 @@ Or you can use a pixel art app like [Piskel](https://www.piskelapp.com/kids/).
 
 </div>
 
-<div class="c-project-callout c-project-callout--debug">
-
 ### Debugging
+
+<div class="c-project-callout c-project-callout--debug">
 
 Make sure that every letter used in your image has an RGB value set.
 
 Check that you have 8 columns and 8 rows of colours in your image, and that there are commas at the end of each row.
 
 </div>
+
+## Now run your code
+
+Confirm the observable result.
