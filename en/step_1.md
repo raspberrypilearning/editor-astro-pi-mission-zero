@@ -13,4 +13,4 @@ Write a simple program to take a reading from the colour and luminosity sensor o
 
 ## Now run your code
 
-Confirm the observable result.
+Click **Run**, change the colour sensor, and check that the preview image changes colour.

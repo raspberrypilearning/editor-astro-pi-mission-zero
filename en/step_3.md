@@ -44,10 +44,6 @@ image = [
 
 ## Step 2
 
-Run your code.
-
-
-
 <div class="c-project-output">
 ![astro pi with a pink screen and a purple cross](images/purple-cross.png)
 </div>
@@ -61,4 +57,4 @@ Have you added a second colour? In the example `d = (128, 0, 128)`.
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that you see a purple cross on the pink background.

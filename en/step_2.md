@@ -35,9 +35,6 @@ c = (248, 24, 148)
 
 ## Step 2
 
-Run your code.
-
-
 <div class="c-project-output">
 ![astro pi displaying an all pink screen](images/pink-screen.png)
 </div>
@@ -60,4 +57,4 @@ Check that you have commas (`,`) between the numbers you have chosen.
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that the whole screen turns pink.

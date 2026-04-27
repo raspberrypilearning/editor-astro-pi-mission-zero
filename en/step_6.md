@@ -65,4 +65,4 @@ Don't forget to add the `sleep(1)` on the last line to give you time to change t
 
 ## Now run your code
 
-Confirm the observable result.
+Run your program, change the colour sensor, and check that the picture updates when the sensor colour changes.

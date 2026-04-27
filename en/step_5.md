@@ -59,4 +59,4 @@ This simulates what an Astro Pi unit's colour sensor would detect.
 
 ## Now run your code
 
-Confirm the observable result.
+Change the colour sensor, run your code, and check that part of the picture changes to match the sensor colour.

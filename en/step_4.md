@@ -50,8 +50,6 @@ image = [
 
 ## Step 3
 
-Run your code.
-
 <div class="c-project-output">
 ![astro pi displaying a yellow and purple fish with a black eye](images/astro-fish.png)
 </div>
@@ -78,4 +76,4 @@ Check that you have 8 columns and 8 rows of colours in your image, and that ther
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that your own 8x8 picture appears on the LED matrix.
