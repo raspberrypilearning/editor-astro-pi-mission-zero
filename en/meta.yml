@@ -1,14 +1,22 @@
-title: Project title in sentence case
-hero_image: images/banner.png
-description: A short description of the project
+---
+title: 'Astro Pi: Mission Zero'
+hero_image: images/MZ_banner_2024_V4.png
+description: Prepare for Mission Zero
 listed: false
-pdf: false
+copyedit: true
+version: 5.0.0
+last_tested: 2018-06-12
+landing: true
 steps:
-  - title: What you will make
-  - title: Step title
+  - title: Astro Pi Mission Zero
+  - title: Colour the LEDs
     completion:
-      - engaged      
-  - title: Challenge
-    challenge: true
+      - engaged
+  - title: Colour different LEDs
+  - title: Draw a picture
+  - title: Sense a colour
+    completion:
+      - internal
+  - title: Keep the colour changing
     completion:
       - external

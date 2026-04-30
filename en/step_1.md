@@ -1,45 +1,16 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+<h2 class="c-project-heading--task">Astro Pi Mission Zero</h2>
 
-A brief description - one or two sentences. 
+Mission Zero offers young people the chance to have their code run in space!
 
---- print-only ---
+<h2 class="c-project-heading--explainer">Example</h2>
 
-![ALT TEXT](images/IMAGE.png)
+Write a simple program to take a reading from the colour and luminosity sensor on an Astro Pi computer on board the International Space Station. Use it to set the background colour in a personalised image for the astronauts to see as they go about their daily tasks.
 
---- /print-only ---
-
---- no-print ---
-
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
-
---- /no-print ---
-
---- no-print ---
-
-Video embed
-
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
-
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
+<div class="c-project-output">
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-astro-pi-mission-zero-complete" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen title="Mission Zero example"> </iframe>
 </div>
+ Click **Run** and then change the colour sensor.
 
---- /no-print ---
+## Now run your code
 
-### You will need:
-- a
-- b
-- c
+Click **Run**, change the colour sensor, and check that the preview image changes colour.
