@@ -2,8 +2,6 @@
 
 Edit your `image` to create your own picture.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 By adding more colours and changing the `image` list, you can create your very own picture on the LED matrix.
