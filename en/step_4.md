@@ -74,4 +74,4 @@ Check that you have 8 columns and 8 rows of colours in your image, and that ther
 
 ## Now run your code
 
-Run your code and check that your own 8x8 picture appears on the LED matrix.
+Run your code and check that your own 8 x 8 picture appears on the LED matrix.
