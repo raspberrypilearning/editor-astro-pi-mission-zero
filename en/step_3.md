@@ -8,7 +8,7 @@ You can change the colours of specific LEDs.
 
 Individual LEDs are shown in the list called `image`.
 
-This is an 8 x 8 grid of letters. Each letter colours a pixel on the Astro Pi.
+This is an 8 x 8 grid of letters. Each letter colours a pixel on the Astro Pi's screen.
 
 At the moment, every LED is coloured with the `c` colour you chose.
 
