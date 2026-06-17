@@ -2,7 +2,7 @@
 
 Experiment with colour values to see what they look like.
 
-<h2 class="c-project-heading--explainer">Red, Green and Blue</h2>
+<h2 class="c-project-heading--explainer">Red, Green, and Blue</h2>
 
 ## Step 1
 
@@ -57,4 +57,4 @@ Check that you have commas (`,`) between the numbers you have chosen.
 
 ## Now run your code
 
-Run your code and check that the whole screen turns pink.
+Run your code and check that the whole screen changes colour.
