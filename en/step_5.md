@@ -1,8 +1,6 @@
-<h2 class="c-project-heading--task">Sense a colour</h2>
+## Sense a colour
 
 The Astro Pi has a colour sensor to detect colours.
-
-<h2 class="c-project-heading--explainer">Use the colour sensor to change your image</h2>
 
 Choose a new letter to store the colour the Astro Pi's sensor reads.
 
@@ -14,15 +12,7 @@ It could be:
 - The colour of a flower's petals
 - Whatever you like
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 13
-line_highlights: 19-20
----
+```python filename="main.py" line_numbers="true" line_number_start="13" line_highlights="19-20"
 # Add colour variables and image
 z = (153, 50, 204) # Tail and fins
 q = (255, 255, 0) # Body
@@ -42,21 +32,16 @@ image = [
     z, d, q, z, z, q, d, d,
     d, d, d, z, d, d, d, d,
     ]
---- /code ---
-</div>
+```
 
 Before you click **Run**, change the colour on the colour sensor. You can click on the colour and use the picker to choose a new one.
 
-<div class="c-project-output">
 ![colour sensor](images/colour_sensor.png)
-</div>
+
 This simulates what an Astro Pi unit's colour sensor would detect.
-
-
-<div class="c-project-output">
-![astro pi with a fish displayed, now with purple fins to match the colour sensor](images/fish-purple-fins.png)
-</div>
 
 ## Now run your code
 
 Change the colour sensor, run your code, and check that part of the picture changes to match the sensor colour.
+
+![astro pi with a fish displayed, now with purple fins to match the colour sensor](images/fish-purple-fins.png)
