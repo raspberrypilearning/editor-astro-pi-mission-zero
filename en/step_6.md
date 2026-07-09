@@ -1,8 +1,6 @@
-<h2 class="c-project-heading--task">Keep the colour changing</h2>
+## Keep the colour changing
 
 The colour can be updated as the sensor changes.
-
-<h2 class="c-project-heading--explainer">Use a loop with a pause</h2>
 
 Add a `for` loop to your code so that the colour sensor is checked every second and your image is updated.
 
@@ -10,15 +8,7 @@ This program will run for 28 seconds. Each Mission Zero entry runs for only 30 s
 
 All the lines after the `for` loop need to have four spaces of indentation.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 13
-line_highlights: 19, 36
----
+```python filename="main.py" line_numbers="true" line_number_start="13" line_highlights="19,36"
 # Add colour variables and image
 z = (153, 50, 204) # Tail and fins
 q = (255, 255, 0) # Body
@@ -43,26 +33,18 @@ for i in range(28):
     # Display the image
     sense.set_pixels(image)
     sleep(1)
---- /code ---
-</div>
+```
 
 Run your program and then change the colour sensor value to see the picture change.
 
-
-<div class="c-project-output">
-![animation of astro pi showing colour picker being changed and fish colours changing as a result](images/colour-change.gif)
-</div>
-
-### Debugging
-
-<div class="c-project-callout c-project-callout--debug">
-
-Make sure you have **four** spaces of indentation on all lines below the `for` loop.
-
-Don't forget to add the `sleep(1)` on the last line to give you time to change the colours.
-
-</div>
+> [!DEBUG]
+>
+> Make sure you have **four** spaces of indentation on all lines below the `for` loop.
+>
+> Don't forget to add the `sleep(1)` on the last line to give you time to change the colours.
 
 ## Now run your code
 
 Run your program, change the colour sensor, and check that the picture updates when the sensor colour changes.
+
+![animation of astro pi showing colour picker being changed and fish colours changing as a result](images/colour-change.gif)

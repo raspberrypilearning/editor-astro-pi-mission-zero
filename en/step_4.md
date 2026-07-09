@@ -1,32 +1,16 @@
-<h2 class="c-project-heading--task">Draw a picture</h2>
+## Draw a picture
 
 Edit your `image` to create your own picture.
-
-## Step 1
 
 By adding more colours and changing the `image` list, you can create your very own picture on the LED matrix.
 
 The following is an example of a fish.
 
-<div class="c-project-output">
 ![fish](images/fish.png)
-</div>
-
-## Step 2
 
 Replace the code below to use your own colours and create your own image.
 
-
-
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 13
-line_highlights: 14-17, 20-27
----
+```python filename="main.py" line_numbers="true" line_number_start="13" line_highlights="14-17,20-27"
 # Add colour variables and image
 z = (153, 50, 204) # Tail and fins
 q = (255, 255, 0) # Body
@@ -43,35 +27,22 @@ image = [
     z, d, q, z, z, q, d, d,
     d, d, d, z, d, d, d, d,
     ]
---- /code ---
-</div>
+```
 
-## Step 3
+> [!TIP]
+>
+> It might help to design your picture on some squared paper.
+>
+> Or you can use a pixel art app like [Piskel](https://www.piskelapp.com/kids/).
 
-<div class="c-project-output">
-![astro pi displaying a yellow and purple fish with a black eye](images/astro-fish.png)
-</div>
-
-### Tip
-
-<div class="c-project-callout c-project-callout--tip">
-
-It might help to design your picture on some squared paper.
-
-Or you can use a pixel art app like [Piskel](https://www.piskelapp.com/kids/).
-
-</div>
-
-### Debugging
-
-<div class="c-project-callout c-project-callout--debug">
-
-Make sure that every letter used in your image has an RGB value set.
-
-Check that you have 8 columns and 8 rows of colours in your image, and that there are commas at the end of each row.
-
-</div>
+> [!DEBUG]
+>
+> Make sure that every letter used in your image has an RGB value set.
+>
+> Check that you have 8 columns and 8 rows of colours in your image, and that there are commas at the end of each row.
 
 ## Now run your code
 
-Run your code and check that your own 8x8 picture appears on the LED matrix.
+Run your code and check that your own 8 x 8 picture appears on the LED matrix.
+
+![astro pi displaying a yellow and purple fish with a black eye](images/astro-fish.png)
